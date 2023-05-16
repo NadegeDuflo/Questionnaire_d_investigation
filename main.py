@@ -1,3 +1,5 @@
+# import pyperclip
+
 def poser_questions(questionChoix):
     choix = questionChoix[1]
     print(" ", questionChoix[0])
@@ -145,3 +147,7 @@ POURQUOI ?
 Ecart par rapport à la BOP."""
 
 print(description)
+
+# pyperclip.copy(description)
+
+# print(pyperclip.paste())
